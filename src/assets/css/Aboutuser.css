@@ -1,0 +1,146 @@
+:root {
+  /* color */
+  --AquaCyan--: #28E489;
+  --IronSideGrey--: #636863;
+  --DarkJungleGreen: #1f1f1f;
+  --AquaGreen--: #28E98C;
+  --grey--: #918F91;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Archivo", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.about {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 40px;
+  border-radius: 50px;
+  border: 1px solid var(--IronSideGrey--);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  bottom: 184px;
+  left: 16rem;
+  padding: 12px;
+  margin-top: 16rem;
+}
+
+
+
+.iconabout {
+  color: white;
+  font-size: 14px;
+
+}
+
+h6 {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+
+}
+
+.myinfo {
+  text-align: start;
+  position: relative;
+  bottom: 83px;
+  width: 50rem;
+  margin-top: 17rem;
+  left: 101px;
+
+}
+
+.myinfo h5 {
+  font-size: 55px;
+  text-overflow: clip;
+  text-wrap: inherit;
+  line-height: 80px;
+
+}
+
+.myinfo p {
+  color: var(--grey--);
+  line-height: 25px;
+  margin-top: 28px;
+  text-wrap: initial;
+  text-overflow: clip;
+  overflow-wrap: break-word;
+  line-break: auto;
+  text-align: start;
+  font-weight: 400;
+  text-decoration-thickness: inherit;
+}
+
+.myinfo span {
+  color: var(--AquaCyan--);
+}
+
+@media (max-width: 768px) {
+  .about {
+    position: relative;
+    left: -84px;
+    bottom: 12rem;
+  }
+  .myinfo h5{
+    font-size: 28px;
+    width: 18rem;
+    line-height: 3rem;
+    position: relative;
+  }
+  .myinfo p {
+    line-height: 30px;
+    position: relative;
+    width: 18rem;
+  }
+
+}
+
+@media (max-width: 1220px) {
+
+  .about {
+    position: relative;
+    left: -84px;
+    bottom: 11rem;
+  }
+
+  .myinfo {
+   margin-top: 0px !important;
+   left: 57px !important;
+  }
+
+}

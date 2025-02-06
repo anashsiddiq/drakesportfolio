@@ -1,0 +1,140 @@
+:root {
+    /* color */
+    --AquaCyan--: #28E489;
+    --IronSideGrey--: #636863;
+    --DarkJungleGreen: #1f1f1f;
+    --AquaGreen--: #28E98C;
+    --grey--: #918F91;
+  }
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  h2 {
+    font-size: 36px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-size: 14px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Archivo", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .aboutexp {
+    display: flex;
+    margin-top: 19rem; 
+    align-items: center; 
+    justify-content: center; 
+    position: relative;
+    right: 224px; 
+    gap: 4px; 
+  }
+  
+  .aboutexp h4 {
+    font-size: 75px;
+    color: var(--AquaCyan--); 
+    font-weight: 400;
+  }
+  
+  .aboutexp > .styleplus {
+    color: var(--AquaCyan--); 
+    font-size: 55px; 
+  }
+  
+  .aboutexp p {
+    color: var(--grey--); 
+    position: absolute; 
+    width: 133px;
+    top: 120px; 
+    text-transform: uppercase; 
+  }
+  
+  .Company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 65px;
+    bottom: 91px; 
+    gap: 4px;
+  }
+  
+  .Company h4 {
+    font-size: 75px;
+    color: var(--AquaCyan--);
+    font-weight: 400;
+  }
+  .Company p{
+    color: var(--grey--); 
+    position: absolute; 
+    width: 200px;
+    top: 118px; 
+    text-transform: uppercase; 
+  }
+  
+  .Company > .styleplusagain {
+    color: var(--AquaCyan--);
+    font-size: 55px;  
+  }
+
+  @media (max-width:1220px)
+  {
+    .aboutexp {
+      margin-top: 12rem;
+      }
+  }
+
+  @media (max-width:768px)
+  {
+    .aboutexp {
+        right: 120px;
+      }
+
+      .aboutexp h4 {
+        font-size: 60px;
+      }
+
+      .aboutexp > .styleplus {
+        color: var(--AquaCyan--); 
+        font-size: 40px; 
+      }
+      .aboutexp p{
+        font-size: 13px;
+      }
+
+      .Company {
+        left: 88px;
+        bottom: 78px; 
+    
+      }
+      .Company h4 {
+        font-size: 60px;
+      }
+      .Company > .styleplusagain {
+        font-size: 40px;  
+      }
+      .Company p{
+        font-size: 14px;
+      }
+    
+  }

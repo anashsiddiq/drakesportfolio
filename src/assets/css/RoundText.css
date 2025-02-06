@@ -1,0 +1,103 @@
+:root {
+    /* color */
+    --AquaCyan--: #28E489;
+    --IronSideGrey--: #636863;
+    --DarkJungleGreen: #1f1f1f;
+    --AquaGreen--: #28E98C;
+    --grey--: #918F91;
+  }
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  h2 {
+    font-size: 36px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-size: 14px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Archivo", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+  .round-circle {
+    position: absolute;
+    border: 1px solid var(--IronSideGrey--);
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    padding: 14px;
+    margin-top: 110px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 185px;
+
+  }
+ .round-circle img{
+    float: right;
+    object-fit: contain;
+    width: 120px;
+    height: auto;
+    animation: rotateImage 5s linear infinite;
+ }
+ .arrowdown{
+    font-size: 40px;
+    color:white;
+    position: absolute;
+    right: 75px;
+    top: 66px;
+ }
+
+
+
+ @keyframes rotateImage {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } 
+
+
+  @media (max-width: 768px) {
+   .round-circle{
+    left: 33px;
+    margin-top: 56px;
+    width: 155px;
+    height: 155px;
+   }
+   .arrowdown{
+    right: 65px;
+    top: 57px;
+   }
+}
+
+@media (max-width: 1220px) {
+    .round-circle{
+        margin-top: 56px;
+       }
+}

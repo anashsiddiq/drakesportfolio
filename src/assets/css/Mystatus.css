@@ -1,0 +1,183 @@
+:root {
+    /* color */
+    --AquaCyan--: #28E489;
+    --IronSideGrey--: #636863;
+    --DarkJungleGreen: #1f1f1f;
+    --AquaGreen--: #28E98C;
+    --grey--: #918F91;
+  }
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  h2 {
+    font-size: 36px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-size: 14px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Archivo", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .borderstyles{
+    width: 340px;
+    height: 640px;
+    border: 1px solid var(--grey--);
+    position: fixed;
+    top: 33px;
+    left: 12px;
+    border-radius: 44px;
+  }
+  .drakestyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 16px;
+}
+
+.drakestyle span {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    line-height: 1.5;
+    position: relative;
+    top: 12px;
+}
+
+.picimage img{
+    border-radius: 52px;
+    height: 250px;
+    margin-top: 22px;
+    line-break: auto;
+    image-orientation: inherit;
+    overflow-inline: auto;
+}
+.aboutinfo{
+    margin-top: 22px;
+}
+.aboutinfo > h5,h4{
+    font-size: 18px;
+    font-weight: 400;
+    text-overflow: inherit;
+    text-wrap:initial;
+    break-after: column;
+    line-break: loose;
+}
+.copyright{
+   margin-top: 20px;
+}
+.copyright h6{
+    color: white;
+    font-size: 13px;
+    color: var(--grey--);
+}
+
+.socialitems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+.socialitems ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    gap: 12px;
+    font-size: 20px;
+}
+
+.socialitems ul li{
+    color: var(--grey--);
+    padding: 14px;
+    border: 1px solid var(--grey--);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    display: flex;
+    transition: 0.4s ease-in;
+}
+
+.socialitems ul li:hover{
+    color: var(--AquaCyan--);
+    border: 1px solid var(--AquaCyan--);
+}
+
+.hirebutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--AquaCyan--);
+    margin-left: 32px;
+    margin-right: 32px;
+    padding: 12px 24px;
+    border-radius: 33px;
+    background-color: var(--AquaCyan--);
+    gap: 10px;
+    font-size: 18px;
+    transition: 0.4s ease-in;
+
+}
+.hirebutton button{
+    border: none;
+    background: none;
+    color: var(--DarkJungleGreen);
+    font-weight: 500;
+    transition: 0.4s ease-in;
+    text-decoration: none;
+}
+
+.hirebutton .hire-icon {
+    font-size: 20px;
+    color: var(--DarkJungleGreen);
+}
+
+.hirebutton:hover {
+    border: 2px solid var(--AquaCyan--);
+    background-color: var(--DarkJungleGreen);
+}
+
+.hirebutton:hover .hire-link,
+.hirebutton:hover .hire-icon {
+    color: var(--AquaCyan--);
+}
+
+
+@media (max-width: 1220px) {
+    .borderstyles{
+     position: relative;
+     max-width: 767px;
+     margin: auto;
+     left: 0;
+     top: 0;
+     transform: translateY(0);
+     margin-top: 20px;
+     display: block;
+     width: 80%;
+  
+      }
+}

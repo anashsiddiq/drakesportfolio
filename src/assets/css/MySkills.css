@@ -1,0 +1,265 @@
+:root {
+    /* color */
+    --AquaCyan--: #28E489;
+    --IronSideGrey--: #636863;
+    --DarkJungleGreen: #1f1f1f;
+    --AquaGreen--: #28E98C;
+    --grey--: #918F91;
+  }
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  h2 {
+    font-size: 36px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-size: 14px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Archivo", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+  .Myskills {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid var(--IronSideGrey--);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 184px;
+    left: 16rem;
+    padding: 12px;
+    margin-top: 10rem;
+  }
+  
+  
+  
+  .Myskillsicons {
+    color: white;
+    font-size: 14px;
+  
+  }
+  
+  h6 {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+  
+  }
+  
+  .Myskillsdetails {
+    text-align: start;
+    position: relative;
+    bottom: 83px;
+    left: 101px;
+
+}
+
+.skills_develop{
+  display: flex;
+  position: relative;
+  bottom: 64px;
+  left: 400px;
+  padding: 12px;
+}
+.html-container{
+  border: 1px solid var(--grey--);
+  border-radius: 83px;
+  width: 233px;
+  height: 233px;
+  padding: 12px;
+}
+.html-container h6{
+  font-size: 33px;
+  font-weight: 400;
+  color: var(--AquaCyan--);
+  margin-top: 12px;
+}
+
+.html-container img{
+  width: 150px;
+  padding: 12px;
+}
+
+.css-container{
+  border: 1px solid var(--grey--);
+  border-radius: 83px;
+  width: 233px;
+  height: 233px;
+  padding: 12px;
+  position: relative;
+  left: 44px;
+}
+.css-container h6{
+  font-size: 33px;
+  font-weight: 400;
+  color: var(--AquaCyan--);
+  margin-top: 12px;
+}
+
+.css-container img{
+  width: 150px;
+  padding: 12px;
+}
+
+.js-container{
+  border: 1px solid var(--grey--);
+  border-radius: 83px;
+  width: 233px;
+  height: 233px;
+  padding: 12px;
+  position: relative;
+  left: 90px;
+}
+.js-container h6{
+  font-size: 33px;
+  font-weight: 400;
+  color: var(--AquaCyan--);
+  margin-top: 12px;
+}
+
+.js-container img{
+  width: 150px;
+  padding: 12px;
+}
+.Myskillsdetails h4 {
+    font-size: 55px;
+    text-overflow: clip;
+    text-wrap: inherit;
+    font-weight: 100;
+    position: relative;
+    left: 305px;
+    bottom: 55px;;
+
+}
+
+
+.Myskillsdetails span {
+    color: var(--AquaCyan--);
+}
+
+  
+  @media (max-width: 768px) {
+    .Myskills {
+      position: relative !important;
+      left: -84px !important;
+      bottom: 12rem !important;
+    }
+    .Myskillsdetails {
+        left: 53px !important;
+        margin-top: 33px !important;
+    }
+    .Myskillsdetails h4 {
+        font-size: 28px !important;
+        position: relative !important;
+        bottom: 17rem !important;
+        position: relative !important;
+        left: 10px !important;
+    }
+    .skills_develop{
+      left: 3px !important;
+      padding: 13px;
+      top: -54px !important;
+    }
+    .html-container{
+      width: 90px;
+      height: 150px;
+    }
+    .css-container{
+      width: 90px;
+      height: 150px;
+
+    }
+    .js-container{
+      width: 90px;
+      height: 150px;
+
+    }
+    .html-container h6{
+      font-size: 20px;
+      
+    }
+    .css-container h6{
+      font-size: 20px;
+    }
+    .js-container h6{
+      font-size: 20px;
+    }
+    .html-container img{
+      width: 100%;
+      height: 40%;
+    }
+    .css-container{
+      left: 34px;
+      bottom: 0px;
+    }
+    .css-container img{
+      width: 100%;
+      height: 40%;
+    }
+    .js-container{
+      left: 70px;
+      bottom: 0px;
+    }
+    .js-container img{
+      width: 100%;
+      height: 40%;
+    }
+  }
+  
+  @media (max-width: 1220px) {
+  
+    .Myskills {
+      position: relative;
+      left: -84px;
+      bottom: 11rem;
+    }
+  
+    .myinfo {
+     margin-top: 0px !important;
+     left: 57px !important;
+    }
+    .skills_develop{
+      left: -45px;
+      top: 33px;
+    }
+    .Myskillsdetails {
+        margin-top: 0px !important;
+        left: 53px !important;
+        top: 150px;
+    }
+    .Myskillsdetails h4 {
+        font-size: 28px;
+        position: relative;
+        bottom: 14rem;
+        left: 10px;
+    }
+  
+  }

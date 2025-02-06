@@ -1,0 +1,254 @@
+:root {
+  /* color */
+  --AquaCyan--: #28E489;
+  --IronSideGrey--: #636863;
+  --DarkJungleGreen: #1f1f1f;
+  --AquaGreen--: #28E98C;
+  --grey--: #918F91;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Archivo", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.animation_setting {
+  position: absolute;
+  background-color: var(--DarkJungleGreen);
+  width: 42px;
+  height: 42px;
+  left: 1px;
+  top: 113px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  position: fixed;
+}
+
+.animation_setting:hover {
+  transform: rotate(360deg);
+}
+
+.setting {
+  color: wheat;
+  font-size: 15px;
+  animation: gearSpin 2s linear infinite;
+  position: fixed;
+}
+
+@keyframes gearSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#offcanvasSettings {
+  background-color: var(--DarkJungleGreen);
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+  width: 65%;
+}
+
+#close-btn {
+  font-size: 13px;
+  border: none;
+}
+
+.color-configuration h1 {
+  font-size: 35px;
+  font-weight: 100;
+  float: left;
+  position: relative;
+  left: 143px;
+  top: 74px;
+  margin: 0;
+  padding: 0;
+}
+
+.color-configuration p {
+  top: 11rem;
+  position: relative;
+  float: left;
+  right: 53px;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 26px;
+  margin-top: 240px;
+  margin-left: 144px;
+  padding-top: 30px;
+}
+
+.d-flex a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.color1 {
+  background-color: #28E98C;
+}
+
+.color2 {
+  background-color: #E4AF12;
+}
+
+.color3 {
+  background-color: #FE6F1D;
+}
+
+.color4 {
+  background-color: #14C5FD;
+}
+
+.color5 {
+  background-color: #C0C0C0;
+}
+
+.color6 {
+  background-color: #1338F3;
+}
+
+.color7 {
+  background-color: #F31313;
+}
+
+.color8 {
+  background-color: #FF99CC;
+}
+
+.clickbackgroundchange h4{
+  font-size: 23px;
+  font-weight: 100;
+  float: left;
+  position: relative;
+  left: 143px;
+  top: 74px;
+  margin: 0;
+  padding: 0;
+}
+.animation-effect{
+  position: relative;
+  top: 145px;
+  color: wheat;
+  display: flex;
+  list-style: none;
+  line-break:loose;
+  right: 175px;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+.animation-effect li{
+  padding: 25px;
+}
+.animation-effect li a {
+      font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    display: block;
+    line-height: 1.2;
+    position: relative;
+    text-decoration: none;
+    padding: 2px;
+}
+.animation-effect li a:hover {
+  text-decoration: line-through;
+  
+}
+@media (max-width: 768px) {
+ 
+
+  .color-configuration h1 {
+    position: relative;
+    left: 33px;
+  }
+
+  .color-configuration p {
+    position: relative;
+    right: 157px;
+
+  }
+  .animation-effect li {
+    margin-right: 44px;
+    margin-bottom: 20px;
+}
+
+  .d-flex {
+    position: relative;
+    right: 94px;
+    padding-top: 10px;
+  }
+  .clickbackgroundchange h4{
+    position: relative;
+    left: 33px;
+  }
+
+}
+
+@media (max-width: 1220px) {
+  .offcanvas {
+    width: 100% !important;
+  }
+  .animation-effect li {
+   padding: 10px;
+}
+
+  
+ 
+  .color-configuration h1 {
+    font-size: 35px;
+    font-weight: 100;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+  
+}

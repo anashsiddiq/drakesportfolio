@@ -1,0 +1,164 @@
+:root {
+    /* color */
+    --AquaCyan--: #28E489;
+    --IronSideGrey--: #636863;
+    --DarkJungleGreen: #1f1f1f;
+    --AquaGreen--: #28E98C;
+    --grey--: #918F91;
+  }
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  h2 {
+    font-size: 36px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-size: 14px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Archivo", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .intro {
+    display: flex;
+    gap: 8px; 
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid var(--IronSideGrey--);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 184px;
+    left: 16rem;
+    padding:12px;
+  }
+  
+ 
+  
+  .iconhome {
+    color: white; 
+    font-size: 14px; 
+    
+  }
+  
+  h6 {
+    margin: 0;
+    font-size:14px;
+    color: white;
+    font-weight: 600;
+    
+  } 
+  
+  .self-inntro{
+    width: 42rem;
+    padding: 6px;
+    margin: 14px;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+    lighting-color:white;
+    overflow-wrap: break-word;
+  }
+  .self-inntro h1{
+    color: white;
+    position: relative;
+    line-height: 80px;
+    top: 123px;
+    left: 93px;
+    text-justify:distribute-all-lines;
+    text-align: left;
+    font-size: 55px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+  }
+
+  .self-inntro span{
+    color: #28E489;
+  }
+
+  .telldesign{
+    width: 45rem;
+    word-wrap: break-word !important;
+    flex-wrap: wrap;
+    text-align: start;
+    text-size-adjust:inherit;
+    text-underline-offset:inherit;
+}
+.telldesign h4{
+    color: var(--grey--);
+    line-height: 30px;
+    font-size: 15px;
+    position: relative;
+    top: 134px;
+    left: 24rem;
+    font-weight: 600;
+  }
+
+  
+
+  @media (max-width: 1220px){
+  .self-inntro{
+    position: absolute;
+  }
+  .self-inntro h1{
+    margin: -51px;
+    font-size: 28px;
+    line-height: 47px;
+    margin-top: -2px;
+  }
+  .intro{
+    position: relative;
+    left: -84px;
+    bottom: 12rem;
+}
+.telldesign h4{
+    top: 0px;
+    left: 42px;
+   }
+  }
+
+  @media (max-width: 768px){
+    .intro{
+        position: relative;
+        left: -84px;
+        bottom: 12rem;
+    }
+   .telldesign h4{
+    left: 30px;
+    top: 5rem;
+    padding: 2px;
+    font-size: 12px;
+    width: 333px;
+    text-align: justify;
+   }
+   .self-inntro h1{
+    margin: -51px;
+    font-size: 28px;
+    width: 279px;
+    line-height: 47px;
+    margin-top: -2px;
+  }
+ 
+  }
