@@ -234,6 +234,11 @@ nav ul {
 }
 
 
-
+@media (max-width:768px){
+  .open-btn{
+    position: absolute;
+    left: 310px;
+  }
+}
 
 
