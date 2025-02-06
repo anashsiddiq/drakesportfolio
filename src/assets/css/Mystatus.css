@@ -181,3 +181,10 @@
   
       }
 }
+
+@media (max-width:768px) {
+  .borderstyles{
+    width: 92%;
+ 
+     }
+}
