@@ -16,7 +16,7 @@ import 'aos/dist/aos.css';
 const Portfolio = () => {
 
   return (
-    <div className="container">
+    <div className="container" id="portfolio">
       <div className="row">
         <div id="About" className='Portfolio d-flex' data-aos="fade-up" data-aos-duration="2000">
           <FontAwesomeIcon className='Portfolioicon' icon={faTableList} />

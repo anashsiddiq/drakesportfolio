@@ -9,7 +9,7 @@ import Mypics from '/src/assets/Image/Mypic.jpeg'
 const Mystatus = () => {
     return (
         <div>
-            <div className="container">
+            <div id="home" className="container">
                 <div className="borderstyles">
                     <div className="drakestyle">
                         <img src={DrakeLogo} />

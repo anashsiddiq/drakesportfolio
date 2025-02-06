@@ -19,10 +19,10 @@ const Resume = () => {
         { year: "2025", title: "Expansion & Updates", description: "Enhancing features and expanding user base." },
     ];
     return (
-        <div className='container'>
+        <div className='container'id="resume">
             
             <div className='row'>
-                <div id="resume" className='resume d-flex' data-aos="fade-up" data-aos-duration="2000">
+                <div className='resume d-flex' data-aos="fade-up" data-aos-duration="2000">
                     <FontAwesomeIcon className="resumefile" icon={faFile} />
                     <h6>Reume</h6>
                 </div>

@@ -11,9 +11,9 @@ const Aboutuser = () => {
         AOS.init();
     }, [])
     return (
-        <div className="container">
+        <div className="container" id="About">
             <div className="row">
-                <div id="About" className='about d-flex' data-aos="fade-up" data-aos-duration="2000">
+                <div  className='about d-flex' data-aos="fade-up" data-aos-duration="2000">
                     <FontAwesomeIcon className='iconabout' icon={faUser} />
                     <h6>ABOUT</h6>
                 </div>

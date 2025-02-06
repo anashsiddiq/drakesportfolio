@@ -21,7 +21,7 @@ const MySkills = () => {
         Aos.init();
     })
     return (
-        <div className="container">
+        <div className="container" id="skills">
             <div className="row">
                 <div id="About" className='Myskills d-flex' data-aos="fade-up" data-aos-duration="2000">
                     <FontAwesomeIcon className='Myskillsicons' icon={faShapes} />

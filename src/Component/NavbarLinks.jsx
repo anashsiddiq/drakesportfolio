@@ -30,28 +30,28 @@ const NavbarLinks = () => {
                     </div>
 
                     <div className="tooltip-container">
-                    <a href="">
+                    <a href="#Services">
                     <span className="tooltip-text">Services</span>
                     <FontAwesomeIcon className="fontbordetr" icon={faBarsStaggered} />
                     </a>
                     </div>
 
                     <div className="tooltip-container">
-                    <a href="">
+                    <a href="#skills">
                     <span className="tooltip-text">Skills</span>
                     <FontAwesomeIcon className="fontbordetr" icon={faShapes} />
                     </a>
                     </div>
 
                     <div className="tooltip-container">
-                    <a href="">
+                    <a href="#service">
                     <span className="tooltip-text">Services</span>
                     <FontAwesomeIcon className="fontbordetr" icon={faAddressCard} />
                     </a>
                     </div>
 
                     <div className="tooltip-container">
-                    <a href="">
+                    <a href="#portfolio">
                     <span className="tooltip-text">Portfolio</span>
                      <FontAwesomeIcon className="fontbordetr" icon={faTableList} />
                     </a>

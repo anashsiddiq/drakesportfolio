@@ -40,7 +40,7 @@ const OffcanvasNavbar = () => {
 
                         <div className="iconflex">
                             <FontAwesomeIcon className="chagecolor" icon={faUser} />
-                            <li><a href="#about">About</a></li>
+                            <li><a href="#About">About</a></li>
                         </div>
                         <div className="iconflex">
                             <FontAwesomeIcon className="chagecolor" icon={faFile} />
@@ -49,7 +49,7 @@ const OffcanvasNavbar = () => {
 
                         <div className="iconflex">
                             <FontAwesomeIcon className="chagecolor" icon={faBarsStaggered} />
-                            <li><a href="#services">Services</a></li>
+                            <li><a href="#Services">Services</a></li>
                         </div>
 
                         <div className="iconflex">
