@@ -142,16 +142,17 @@
   @media (max-width: 768px){
     .intro{
         position: relative;
-        left: -84px;
+        left: 84px;
         bottom: 12rem;
     }
    .telldesign h4{
-    left: 0px;
+    left: 48px;
     top: 5rem;
     padding: 2px;
     font-size: 12px;
     width: 333px;
     text-align: justify;
+    line-height: 27px;
    }
    .self-inntro h1{
     margin: -51px;

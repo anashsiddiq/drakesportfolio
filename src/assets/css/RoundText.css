@@ -86,7 +86,7 @@
   @media (max-width: 768px) {
    .round-circle{
     left: 33px;
-    margin-top: 56px;
+    margin-top: 86px !important;
     width: 155px;
     height: 155px;
    }
