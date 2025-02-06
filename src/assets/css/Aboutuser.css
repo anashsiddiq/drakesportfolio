@@ -112,20 +112,24 @@ h6 {
 
 @media (max-width: 768px) {
   .about {
-    position: relative;
-    left: -84px;
-    bottom: 12rem;
+    position: relative !important;
+    left: 84px !important;
+    bottom: 12rem !important;
   }
   .myinfo h5{
     font-size: 28px;
     width: 18rem;
     line-height: 3rem;
     position: relative;
+    margin-top: -42px;
   }
   .myinfo p {
     line-height: 30px;
     position: relative;
     width: 18rem;
+  }
+  .myinfo{
+
   }
 
 }
@@ -133,14 +137,11 @@ h6 {
 @media (max-width: 1220px) {
 
   .about {
-    position: relative;
+    position: relative ;
     left: -84px;
     bottom: 11rem;
   }
 
-  .myinfo {
-   margin-top: 0px !important;
-   left: 57px !important;
-  }
+ 
 
 }
