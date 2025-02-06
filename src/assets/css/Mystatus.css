@@ -71,12 +71,16 @@
     border-radius: 52px;
     height: 250px;
     margin-top: 22px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     line-break: auto;
-    image-orientation: inherit;
+    image-orientation: inherit !important;
     overflow-inline: auto;
 }
 .aboutinfo{
     margin-top: 22px;
+    text-align: center;
 }
 .aboutinfo > h5,h4{
     font-size: 18px;
@@ -93,6 +97,7 @@
     color: white;
     font-size: 13px;
     color: var(--grey--);
+    text-align: center;
 }
 
 .socialitems{

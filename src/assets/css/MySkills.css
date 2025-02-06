@@ -78,7 +78,6 @@
     text-align: start;
     position: relative;
     bottom: 83px;
-    left: 101px;
 
 }
 
@@ -86,7 +85,6 @@
   display: flex;
   position: relative;
   bottom: 64px;
-  left: 400px;
   padding: 12px;
 }
 .html-container{
@@ -155,7 +153,6 @@
     text-wrap: inherit;
     font-weight: 100;
     position: relative;
-    left: 305px;
     bottom: 55px;;
 
 }

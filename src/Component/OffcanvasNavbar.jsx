@@ -87,7 +87,7 @@ const OffcanvasNavbar = () => {
             {show && <div className="overlay" onClick={() => setShow(false)}></div>}
             <NavbarLinks/>
             <Mystatus/>
-            {/* <Settingback/> */}
+            <Settingback/>
             <SelfIntroduction/>
             <RoundText/>
             <Projectandexpdetails/>

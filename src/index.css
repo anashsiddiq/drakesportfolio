@@ -35,10 +35,8 @@ html,body{
   font-variation-settings:
     "wdth" 100;
     background-color: var(--DarkJungleGreen);
-    scrollbar-width: none;
     height: 100%;
     width: 100%;
-    
 }
 
 @media (max-width:768px) {

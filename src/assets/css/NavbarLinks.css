@@ -61,7 +61,6 @@ body {
 .changeToColor .social-icons-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     position: fixed;
     border-width: 100%;
     border: 1px solid var(--grey--);
@@ -69,7 +68,7 @@ body {
     top: 140px;
     border-radius: 56px;
     font-size: 15px;
-    right: 55px;
+    left: 88rem;
 
 }
 

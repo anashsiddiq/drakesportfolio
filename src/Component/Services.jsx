@@ -11,7 +11,7 @@ const Services = () => {
         AOS.init();
     })
     return (
-        <div className="conainer" id="service">
+        <div className="conainer" id="service" style={{overflowX:"hidden"}} >
             <div className="row">
                 <div id="Services" className='service d-flex' data-aos="fade-up" data-aos-duration="2000">
                     <FontAwesomeIcon className='Serviceicon' icon={faBarsStaggered} />
