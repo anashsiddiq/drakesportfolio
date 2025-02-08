@@ -123,18 +123,18 @@ h6 {
 
   .myinfo h5 {
     font-size: 33px;
-    width: 18rem;
+    width: 18rem !important;
     line-height: 3rem;
     position: relative;
     margin-top: -42px;
-    margin-left: -110px;
+    margin-left: -110px !important;
   }
 
   .myinfo p {
     line-height: 30px;
     position: relative;
-    width: 22rem;
-    margin-left: -114px;
+    width: 22rem !important;
+    margin-left: -114px !important;
 
   }
 
@@ -146,10 +146,17 @@ h6 {
 
   .about {
     position: relative;
-    left: -84px;
+    left: 78px;
     bottom: 11rem;
   }
-
+.myinfo h5{
+  margin-left: -70px;
+  width: 42rem;
+}
+.myinfo p {
+  margin-left: -74px;
+  width: 40rem;
+}
 
 
 }

@@ -164,7 +164,7 @@ h6 {
     }
     .infodetails {
         left: 53px !important;
-        margin-top: 33px !important;
+        margin-top: 203px !important;
     }
     .sepcialdata1{
         left: 34px !important;
@@ -199,6 +199,7 @@ h6 {
         position: relative !important;
         left: 10px !important;
     }
+   
 }
 
 @media (max-width: 1220px) {
@@ -210,8 +211,8 @@ h6 {
     }
 
     .infodetails {
-        margin-top: 0px !important;
-        left: 53px !important;
+        margin-top: 0px;
+        left: 53px;
         top: 150px;
     }
     .infodetails h4 {
