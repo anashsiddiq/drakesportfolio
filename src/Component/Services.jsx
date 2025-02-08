@@ -27,13 +27,13 @@ const Services = () => {
                     <h4>Front End Developer</h4>
                     <p>Front-end developers are responsible for the user interface and user experience aspects of a website. They work on the visual elements that users interact with directly in their browsers.</p>
                 </div>
-
                 <div className="sepcialdata2 mt-3" id="servicesinc" data-aos="fade-up" data-aos-duration="2000">
                     <h4>Backend Developer</h4>
                     <p> Back-end developers focus on the server-side components of web applications. They manage databases, server logic, and application integration. Key technologies and skills </p>
                 </div>
             </div>
-        </div>
+
+            </div>
     )
 }
 

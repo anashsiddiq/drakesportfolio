@@ -54,7 +54,7 @@ h6 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: relative;
   bottom: 184px;
-  left: 16rem;
+  left: 21rem;
   padding: 12px;
   margin-top: 16rem;
 }
@@ -90,6 +90,8 @@ h6 {
   text-overflow: clip;
   text-wrap: inherit;
   line-height: 80px;
+  position: relative;
+  left: 80px;
 
 }
 
@@ -104,6 +106,8 @@ h6 {
   text-align: start;
   font-weight: 400;
   text-decoration-thickness: inherit;
+  position: relative;
+  left: 80px;
 }
 
 .myinfo span {
@@ -116,32 +120,36 @@ h6 {
     left: 84px !important;
     bottom: 12rem !important;
   }
-  .myinfo h5{
-    font-size: 28px;
+
+  .myinfo h5 {
+    font-size: 33px;
     width: 18rem;
     line-height: 3rem;
     position: relative;
     margin-top: -42px;
+    margin-left: -110px;
   }
+
   .myinfo p {
     line-height: 30px;
     position: relative;
-    width: 18rem;
-  }
-  .myinfo{
+    width: 22rem;
+    margin-left: -114px;
 
   }
+
+  .myinfo {}
 
 }
 
 @media (max-width: 1220px) {
 
   .about {
-    position: relative ;
+    position: relative;
     left: -84px;
     bottom: 11rem;
   }
 
- 
+
 
 }

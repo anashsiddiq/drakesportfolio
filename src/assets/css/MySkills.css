@@ -53,9 +53,9 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     bottom: 184px;
-    left: 16rem;
+    left: 20rem;
     padding: 12px;
-    margin-top: 10rem;
+    margin-top: 14rem;
   }
   
   
@@ -78,14 +78,17 @@
     text-align: start;
     position: relative;
     bottom: 83px;
+    left: 20rem;
+    overflow: hidden;
 
 }
 
 .skills_develop{
   display: flex;
   position: relative;
-  bottom: 64px;
+  bottom: 0px;
   padding: 12px;
+  left: 20rem;
 }
 .html-container{
   border: 1px solid var(--grey--);
@@ -153,7 +156,7 @@
     text-wrap: inherit;
     font-weight: 100;
     position: relative;
-    bottom: 55px;;
+    bottom: 0px
 
 }
 

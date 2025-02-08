@@ -53,7 +53,7 @@ h6 {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     bottom: 184px;
-    left: 16rem;
+    left: 21rem;
     padding: 12px;
     margin-top: 10rem;
 }
@@ -74,6 +74,8 @@ h6 {
 .educationdetails h4 {
     font-size: 45px;
     font-weight: 200;
+    position: relative;
+    left: 21px;
 }
 .educationdetails span{
     color: var(--AquaCyan--);

@@ -56,6 +56,7 @@ h6 {
     bottom: 184px;
     padding: 12px;
     margin-top: 18rem;
+    left: 26rem;
 }
 
 .Serviceicon {
@@ -87,7 +88,8 @@ h6 {
     text-wrap: inherit;
     font-weight: 100;
     position: relative;
-    bottom: 55px;;
+    bottom: 55px;
+    left: 26rem;
 
 }
 
@@ -102,11 +104,11 @@ h6 {
     width: 833px;
     height: 194px;
     position: relative;
-    left: 505px;
     bottom: 104px;
     border-radius: 35px;
     padding: 40px 34px 15px;  
     transition: all 1.5s ease-in-out; /* Slower transition */
+    left: 26rem;
 }
 
 .sepcialdata1:hover {
@@ -130,11 +132,11 @@ h6 {
     width: 833px;
     height: 194px;
     position: relative;
-    left: 505px;
     bottom: 104px;
     border-radius: 35px;
     padding: 40px 34px 15px;  
-    transition: all 1.5s ease-in-out; /* Slower transition */
+    transition: all 1.5s ease-in-out;
+    left: 26rem;
 }
 
 .sepcialdata2:hover {
