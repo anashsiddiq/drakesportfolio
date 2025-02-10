@@ -18,6 +18,7 @@ import Curser from "./Curser";
 import Services from "./Services";
 import MySkills from "./MySkills";
 import Portfolio from "./Portfolio";
+import Testimonial from "./Testimonal";
 FontAwesomeIcon
 const OffcanvasNavbar = () => {
     const [show, setShow] = useState(false);
@@ -97,6 +98,7 @@ const OffcanvasNavbar = () => {
             <Services/>
             <MySkills/>
             <Portfolio/>
+            <Testimonial/>
         </div>
 
     );
