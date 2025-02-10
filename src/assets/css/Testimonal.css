@@ -157,6 +157,7 @@ h6 {
     border-radius: 50%;
     margin-left: 24px;
     font-size: 12px;
+    transition: border 0.3s ease-in;
 }
 
 .carousel-control-prev {
@@ -165,8 +166,16 @@ h6 {
     height: 70px;
     width: 70px;
     border-radius: 50%;
+    transition: border 0.3s ease-in;
+
 }
 
+.carousel-control-next:hover{
+    border: 1px solid var(--AquaCyan--);
+}
+.carousel-control-prev:hover{
+    border: 1px solid  var(--AquaCyan--);
+}
 .testimonial-item img {
     width: 82px;
     height: 82px;

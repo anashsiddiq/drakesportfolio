@@ -13,10 +13,10 @@ const Resume = () => {
         Aos.init();
     })
     const timelineData = [
-        { year: "2022", title: "Project Initiation", description: "Started brainstorming and research for the project." },
-        { year: "2023", title: "Development Phase", description: "Built the core functionalities and backend API." },
-        { year: "2024", title: "Testing & Deployment", description: "Performed testing and launched the first version." },
-        { year: "2025", title: "Expansion & Updates", description: "Enhancing features and expanding user base." },
+        { year: "2018-2021", title: "Bachelor Computer of Application", description: "Makhanlal Cahturvedi National University." },
+        { year: "2021-2023", title: "Master Computer of Application Phase", description: "Ram Krishna Dharmatrah University." },
+        { year: "2023-2024", title: "Bhagirath Technologies pvt ltd", description: "Front End Developer." },
+    
     ];
     return (
         <div className='container'id="resume">

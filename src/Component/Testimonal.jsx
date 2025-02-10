@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "../assets/css/Testimonal.css";
@@ -7,10 +7,15 @@ import testimonialimg2 from "../assets/Image/testimonalimg2.jpg"
 import testimonialimg3 from "../assets/Image/testimonialimage3.jpg"
 import { faListUl } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Aos from "aos";
 
 
 const Testimonial = () => {
+    useEffect(()=>{
+        Aos.init();
+    })
     return (
         <>
          <div id="About" className='testimonal d-flex' data-aos="fade-up" data-aos-duration="2000">
@@ -18,7 +23,7 @@ const Testimonial = () => {
           <h6>Testimonal</h6>
           <h4 className="text-white">Trusted<span>Client</span></h4>
         </div>
-        <div id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel">
+        <div id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel" data-aos="fade-up" data-aos-duration="2000">
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <div className="testimonial-item">
